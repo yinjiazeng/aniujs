@@ -13,7 +13,7 @@ npm i aniujs --save
 
 ## 使用
 ```js
-import React, { ReactDOM, useState, useCallback } from 'aniujs';
+import React, { render, useState, useCallback } from 'aniujs';
 
 function App() {
   const [text, setText] = useState('aniujs');
@@ -27,5 +27,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById('#app'));
+render(<App />, document.getElementById('#app'));
 ```
