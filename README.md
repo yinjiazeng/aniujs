@@ -20,7 +20,7 @@ function App() {
   
   const onClick = useCallback(() => {
     setText(text === 'aniujs' ? 'react' : 'aniujs');
-  }, []);
+  }, [text]);
   
   return (
     <div onClick={onClick}>{text}</div>
