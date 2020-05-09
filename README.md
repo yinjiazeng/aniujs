@@ -1,19 +1,19 @@
-# aniujs
+# react-less
 迷你轻量版React框架
 
 ## 安装
 ```sh
-yarn add aniujs
+yarn add react-less
 ```
 or
 
 ```sh
-npm i aniujs --save
+npm i react-less --save
 ```
 
 ## 使用
 ```js
-import React, { render, useState, useCallback } from 'aniujs';
+import React, { render, useState, useCallback } from 'react-less';
 
 function App() {
   const [text, setText] = useState('aniujs');
