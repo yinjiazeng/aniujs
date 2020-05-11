@@ -1,0 +1,23 @@
+{
+  "name": "react-less",
+  "version": "0.0.0",
+  "description": "迷你轻量版React框架",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinjiazeng/react-less.git"
+  },
+  "keywords": [
+    "react",
+    "react-less",
+    "react-lite",
+    "react-like"
+  ],
+  "author": "yinjiazeng <yinjiazeng@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yinjiazeng/react-less/issues"
+  },
+  "homepage": "https://github.com/yinjiazeng/react-less#readme"
+}
