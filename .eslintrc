@@ -3,7 +3,10 @@
   "extends": ["airbnb-base", "prettier"],
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "no-unused-vars": "off"
   },
   "globals": {
     "window": true,
